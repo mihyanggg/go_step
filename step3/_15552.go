@@ -21,5 +21,6 @@ func main() {
 		a, _ := strconv.Atoi(tokens[0])
 		b, _ := strconv.Atoi(tokens[1])
 		writer.WriteString(strconv.Itoa(a+b) + "\n")
+		//writer.Flush()
 	}
 }
